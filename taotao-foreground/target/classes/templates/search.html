@@ -1,0 +1,67 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta http-equiv="Cache-Control" content="max-age=300" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title><span th:text="${query}" th:remove="tag"></span> - 商品搜索 - 淘淘</title>
+		<meta name="Keywords" content="java,淘淘java" />
+		<meta name="description" content="在淘淘中找到了29910件java的类似商品，其中包含了“图书”，“电子书”，“教育音像”，“骑行运动”等类型的java的商品。" />
+		<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/css/psearch20131008.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/css/psearch.onebox.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/css/pop_compare.css" media="all" />
+		<script type="text/javascript" src="/js/jquery-1.6.4.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript" src="/js/base-2011.js" charset="utf-8"></script>
+		<!-- header start -->
+			<!--引入头页面-->
+			<div th:replace="commons/header"></div>
+		<!-- header end -->
+		<div class="w main">
+			<div class="crumb">全部结果&nbsp;&gt;&nbsp;<strong th:text="${query}"></strong></div>
+		<div class="clr"></div>
+		<div class="m clearfix" id="bottom_pager">
+		<div  id="pagin-btm" class="pagin fr" clstag="search|keycount|search|pre-page2">
+			<!--展示分页(首页/尾页/下一页...)-->
+		</div>
+		</div>
+		<div class="m psearch " id="plist">
+			<ul class="list-h clearfix" tpl="2">
+				<li th:each="item:${itemList}" class="item-book" bookid="11078102">
+					<div class="p-img">
+						<a target="_blank" th:href="@{'/item/getItemInfo/'+${item.id}}">
+							<img width="160" height="160" data-img="1" th:data-lazyload="${item.images[0]}" />
+						</a>
+					</div>
+					<div class="p-name">
+						<a target="_blank" th:href="@{'/item/getItemInfo/'+${item.id}}">
+							<span th:utext="${item.title}" th:remove="tag"></span>
+						</a>
+					</div>
+					<div class="p-price">
+						<i>淘淘价：</i>
+						<strong>￥<span th:text="${#numbers.formatDecimal(item.price / 1000.0,0,2)}"></span></strong>
+					</div>
+					<div class="service">由 淘淘 发货</div>
+					<div class="extra">
+						<span class="star"><span class="star-white"><span class="star-yellow h5">&nbsp;</span></span></span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+		<!-- footer start -->
+			<!--引入底部页面-->
+			<div th:replace="commons/footer"></div>
+		<!-- footer end -->
+		<script type="text/javascript" src="/js/jquery.hashchange.js"></script>
+		<script type="text/javascript" src="/js/search_main.js"></script>
+		<script type="text/javascript" th:inline="text">
+			//${paginator.totalPages}
+			SEARCH.query = "[[${query}]]";
+			SEARCH.bottom_page_html([[${page}]],[[${totalPages}]],'');
+		</script>
+	</body>
+</html>

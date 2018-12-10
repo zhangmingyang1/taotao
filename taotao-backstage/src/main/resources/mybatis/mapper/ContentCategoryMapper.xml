@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.ContentCategoryMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.ContentCategory" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="parent_id" property="parentId" jdbcType="BIGINT" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="sort_order" property="sortOrder" jdbcType="INTEGER" />
+    <result column="is_parent" property="isParent" jdbcType="BIT" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <!--1.获取内容分类列表-->
+  <select id="getContentCatList" parameterType="LONG" resultMap="BaseResultMap">
+    SELECT * FROM `content_category` WHERE parent_id = #{parentId};
+  </select>
+
+  <!--2.新增内容分类-->
+  <insert id="createContentCat" parameterType="com.zte.km.entities.ContentCategory" useGeneratedKeys="true" keyProperty="contentCategory.id">
+    INSERT INTO `content_category`(`parent_id`,`name`,`status`,`sort_order`,`is_parent`,`created`,`updated`)
+      VALUES (#{contentCategory.parentId},#{contentCategory.name},#{contentCategory.status},#{contentCategory.sortOrder},#{contentCategory.isParent},CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
+  </insert>
+
+  <!--3.根据Id查询内容分类-->
+  <select id="getContentCatById" parameterType="LONG" resultMap="BaseResultMap">
+    SELECT * FROM `content_category` WHERE `id` = #{id};
+  </select>
+
+  <!--4.根据Id更新内容分类-->
+  <update id="updateContentCatById" parameterType="com.zte.km.entities.ContentCategory">
+    UPDATE `content_category` SET
+      <if test="contentCategory.parentId != null">
+        `parent_id`=#{contentCategory.parentId},
+      </if>
+      <if test="contentCategory.name != null">
+        `name`=#{contentCategory.name},
+      </if>
+      <if test="contentCategory.status != null">
+        `status`=#{contentCategory.status},
+      </if>
+      <if test="contentCategory.sortOrder != null">
+        `sort_order`=#{contentCategory.sortOrder},
+      </if>
+      <if test="contentCategory.isParent != null">
+        `is_parent`=#{contentCategory.isParent},
+      </if>
+      `updated`=CURRENT_TIMESTAMP WHERE `id` = #{contentCategory.id};
+  </update>
+
+  <!--5.删除内容分类-->
+  <delete id="deleteContentCatById" parameterType="LONG">
+    DELETE FROM `content_category` WHERE `id` = #{id};
+  </delete>
+
+
+</mapper>

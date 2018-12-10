@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.User" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <!--1.检查用户登陆信息-->
+  <select id="checkByName" resultMap="BaseResultMap">
+    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated` FROM `user` WHERE `username`=#{content}
+  </select>
+  <select id="checkByPhone" resultMap="BaseResultMap">
+    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated` FROM `user` WHERE `phone`=#{content}
+  </select>
+  <select id="checkByEmail" resultMap="BaseResultMap">
+    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated` FROM `user` WHERE `email`=#{content}
+  </select>
+
+  <!--2.用户注册-->
+  <insert id="register" parameterType="com.zte.km.entities.User">
+    <choose>
+      <when test="user.email==null or user.email==''">
+        INSERT INTO `user`(`username`,`password`,`phone`,`created`,`updated`)
+          VALUES (#{user.username},#{user.password},#{user.phone},CURRENT_TIMESTAMP ,CURRENT_TIMESTAMP)
+      </when>
+      <otherwise>
+        INSERT INTO `user`(`username`,`password`,`phone`,`email`,`created`,`updated`)
+          VALUES (#{user.username},#{user.password},#{user.phone},#{user.email},CURRENT_TIMESTAMP ,CURRENT_TIMESTAMP)
+      </otherwise>
+    </choose>
+  </insert>
+
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.ItemParamMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.ItemParam" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="item_cat_id" property="itemCatId" jdbcType="BIGINT" />
+    <result column="param_data" property="paramData" jdbcType="VARCHAR" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <!--1.根据商品分类ID查询商品规格参数模板-->
+  <select id="getItemParamByCid" parameterType="LONG" resultMap="BaseResultMap">
+    SELECT `id`,`item_cat_id`,`param_data`,`created`,`updated` FROM item_param WHERE item_cat_id=#{itemCatId}
+  </select>
+
+  <!--2.插入商品规格参数-->
+  <insert id="insert" parameterType="com.zte.km.entities.ItemParam">
+    INSERT INTO item_param(item_cat_id`,`param_data`,`created`,`updated`) VALUES (#{itemParam.itemCatId},#{itemParam.paramData},CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
+  </insert>
+
+  <!--3.查询商品规格参数列表-->
+  <select id="getItemParamList" resultMap="BaseResultMap">
+    SELECT `id`,`item_cat_id`,`param_data`,`created`,`updated` FROM item_param
+  </select>
+
+</mapper>

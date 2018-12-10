@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.OrderItemMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.OrderItem" >
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="item_id" property="itemId" jdbcType="VARCHAR" />
+    <result column="order_id" property="orderId" jdbcType="VARCHAR" />
+    <result column="num" property="num" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="BIGINT" />
+    <result column="total_fee" property="totalFee" jdbcType="BIGINT" />
+    <result column="pic_path" property="picPath" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <!--1.插入订单明细表-->
+  <insert id="insert" parameterType="com.zte.km.entities.OrderItem">
+    INSERT INTO order_item (`id`,`item_id`,`order_id`,`num`,`title`,`price`,`total_fee`,`pic_path`)
+      VALUES(#{orderItem.id},#{orderItem.itemId},#{orderItem.orderId},#{orderItem.num},#{orderItem.title},
+        #{orderItem.price},#{orderItem.totalFee},#{orderItem.picPath})
+  </insert>
+
+</mapper>

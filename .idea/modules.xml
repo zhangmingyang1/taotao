@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/taotao.iml" filepath="$PROJECT_DIR$/taotao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-backstage/taotao-backstage.iml" filepath="$PROJECT_DIR$/taotao-backstage/taotao-backstage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-foreground/taotao-foreground.iml" filepath="$PROJECT_DIR$/taotao-foreground/taotao-foreground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-log/taotao-log.iml" filepath="$PROJECT_DIR$/taotao-log/taotao-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-pay/taotao-pay.iml" filepath="$PROJECT_DIR$/taotao-pay/taotao-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-solr/taotao-solr.iml" filepath="$PROJECT_DIR$/taotao-solr/taotao-solr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotao-sso/taotao-sso.iml" filepath="$PROJECT_DIR$/taotao-sso/taotao-sso.iml" />
+    </modules>
+  </component>
+</project>

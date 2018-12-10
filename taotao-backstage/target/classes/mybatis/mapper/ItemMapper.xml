@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.ItemMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.Item" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="sell_point" property="sellPoint" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="BIGINT" />
+    <result column="num" property="num" jdbcType="INTEGER" />
+    <result column="barcode" property="barcode" jdbcType="VARCHAR" />
+    <result column="image" property="image" jdbcType="VARCHAR" />
+    <result column="cid" property="cid" jdbcType="BIGINT" />
+    <result column="status" property="status" jdbcType="TINYINT" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <!--1.获取商品列表-->
+  <select id="getItemList" resultMap="BaseResultMap">
+    SELECT `id`,`title`,`sell_point`,`price`,`num`,`barcode`,`image`,`cid`,`status`,`created`,`updated`
+      FROM item LIMIT #{start},#{rows}
+  </select>
+  <!--2.查询商品总数-->
+  <select id="getItemCount" resultType="LONG">
+    SELECT COUNT(*) FROM item
+  </select>
+  <!--3.根据ids删除商品-->
+  <delete id="deleteItemByIds" parameterType="LONG">
+    DELETE FROM item WHERE `id` IN
+    <foreach collection="ids" item="id" open="(" separator="," close=")">
+      #{id}
+    </foreach>
+  </delete>
+
+  <!--4.根据IDs上架商品-->
+  <update id="shelfItemByIds"  parameterType="LONG">
+    UPDATE item SET `status`=1 WHERE `id` IN
+    <foreach collection="ids" item="id" open="(" separator="," close=")">
+      #{id}
+    </foreach>
+  </update>
+
+  <!--5.根据IDs下架商品-->
+  <update id="shelveItemByIds"  parameterType="LONG">
+    UPDATE item SET `status`=2 WHERE `id` IN
+    <foreach collection="ids" item="id" open="(" separator="," close=")">
+      #{id}
+    </foreach>
+  </update>
+
+  <!--6.插入商品信息-->
+  <insert id="insert" parameterType="com.zte.km.entities.Item">
+    INSERT INTO item(`id`,`title`,`sell_point`,`price`,`num`,`barcode`,`image`,`cid`,`status`,`created`,`updated`)
+      VALUES (#{item.id},#{item.title},#{item.sellPoint},#{item.price},#{item.num},#{item.barcode},#{item.image},#{item.cid},#{item.status},CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
+  </insert>
+
+  <!--7.更新商品表-->
+  <update id="update" parameterType="com.zte.km.entities.Item">
+    UPDATE item SET `title`=#{item.title},`sell_point`=#{item.sellPoint},`price`=#{item.price},`num`=#{item.num},`barcode`=#{item.barcode},
+      `image`=#{item.image},`cid`=#{item.cid},`updated`=CURRENT_TIMESTAMP WHERE `id`=#{item.id}
+  </update>
+
+  <!--8.根据ID查询商品信息-->
+  <select id="getItemById" resultMap="BaseResultMap">
+    SELECT `id`,`title`,`sell_point`,`price`,`num`,`barcode`,`image`,`cid`,`status`,`created`,`updated`
+      FROM item WHERE `id`=#{itemId}
+  </select>
+
+</mapper>

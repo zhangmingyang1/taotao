@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.ContentMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.Content" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="category_id" property="categoryId" jdbcType="BIGINT" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="sub_title" property="subTitle" jdbcType="VARCHAR" />
+    <result column="title_desc" property="titleDesc" jdbcType="VARCHAR" />
+    <result column="url" property="url" jdbcType="VARCHAR" />
+    <result column="pic" property="pic" jdbcType="VARCHAR" />
+    <result column="pic2" property="pic2" jdbcType="VARCHAR" />
+    <result column="content" property="content" jdbcType="VARCHAR" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <!--1.查询分类下，分类总记录数-->
+  <select id="getCategoryCount" resultType="LONG">
+    SELECT count(1) FROM content WHERE `category_id`=#{categoryId}
+  </select>
+
+  <!--2.查询内容列表-->
+  <select id="getContentList" resultMap="BaseResultMap">
+    SELECT `id`,`category_id`,`title`,`sub_title`,`title_desc`,`url`,`pic`,`pic2`,`content`,`created`,`updated` FROM content
+      WHERE `category_id`=#{categoryId}
+      <if test="start != null and rows != null">
+        LIMIT #{start},#{rows}
+      </if>
+  </select>
+
+  <!--3.新增内容-->
+  <insert id="addContent" parameterType="com.zte.km.entities.Content">
+    INSERT INTO content(`category_id`,`title`,`sub_title`,`title_desc`,`url`,`pic`,`pic2`,`content`,`created`,`updated`)
+      VALUES (#{content.categoryId},#{content.title},#{content.subTitle},#{content.titleDesc},#{content.url},#{content.pic},
+        #{content.pic2},#{content.content},CURRENT_TIMESTAMP ,CURRENT_TIMESTAMP )
+  </insert>
+
+  <!--4.编辑内容-->
+  <update id="editContent" parameterType="com.zte.km.entities.Content">
+    UPDATE content SET `category_id`=#{content.categoryId},`title`=#{content.title},`sub_title`=#{content.subTitle},`title_desc`=#{content.titleDesc},
+      `url`=#{content.url},`pic`=#{content.pic},`pic2`=#{content.pic2},`content`=#{content.content},`updated`=CURRENT_TIMESTAMP WHERE  `id`=#{content.id}
+  </update>
+
+  <!--5.根据ids删除商品-->
+  <delete id="deleteContentByIds" parameterType="LONG">
+    DELETE FROM content WHERE `id` IN
+    <foreach collection="ids" item="id" open="(" separator="," close=")">
+      #{id}
+    </foreach>
+  </delete>
+
+</mapper>

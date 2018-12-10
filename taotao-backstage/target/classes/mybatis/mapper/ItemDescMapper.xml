@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.ItemDescMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.ItemDesc" >
+    <id column="item_id" property="itemId" jdbcType="BIGINT" />
+    <result column="item_desc" property="itemDesc" jdbcType="VARCHAR" />
+    <result column="created" property="created" jdbcType="TIMESTAMP" />
+    <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <!--1.根据id查询商品描述-->
+  <select id="getItemDescById" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select item_id, item_desc, created, updated
+      from item_desc where item_id = #{itemId,jdbcType=BIGINT}
+  </select>
+
+  <!--2.插入商品描述-->
+  <insert id="insert" parameterType="com.zte.km.entities.ItemDesc">
+    INSERT INTO item_desc(item_id, item_desc, created, updated) VALUES (#{itemDesc.itemId},#{itemDesc.itemDesc},CURRENT_TIMESTAMP,CURRENT_TIMESTAMP)
+  </insert>
+
+  <!--3.更新商品描述-->
+  <update id="update" parameterType="com.zte.km.entities.ItemDesc">
+    UPDATE item_desc SET item_desc=#{itemDesc.itemDesc},updated=CURRENT_TIMESTAMP WHERE item_id=#{itemDesc.itemId}
+  </update>
+
+
+</mapper>
