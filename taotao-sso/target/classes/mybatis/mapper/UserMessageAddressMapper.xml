@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.UserMessageAddressMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.UserMessageAddress" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="userId" property="userId" jdbcType="BIGINT" />
+    <result column="province" property="province" jdbcType="VARCHAR" />
+    <result column="city" property="city" jdbcType="VARCHAR" />
+    <result column="county" property="county" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <!--1.新增/更新用户收货地址信息,ON DUPLICATE KEY UPDATE依据unique键或者主键，有责更新无责插入-->
+  <insert id="insertOrUpdate"  useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.zte.km.entities.UserMessageAddress">
+    INSERT INTO user_address(userId, province, city, county, address)
+    VALUES (#{userMessageAddress.userId},#{userMessageAddress.province},#{userMessageAddress.city},#{userMessageAddress.county},#{userMessageAddress.address})
+  </insert>
+
+  <!--2.删除所有用户收货地址-->
+  <delete id="delete" parameterType="LONG">
+    DELETE FROM user_address WHERE userId=#{userId}
+  </delete>
+
+  <!--3.根据ID查询所有用户收货地址-->
+  <select id="getUserMessageAddressList" resultMap="BaseResultMap">
+    SELECT id,userId, province, city, county, address FROM user_address WHERE userId=#{userId};
+  </select>
+
+</mapper>

@@ -1,130 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61fc1660-8174-4544-873d-76ccab7cfbe8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_17_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_17_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_17_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_9_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/common/consts/MQConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/consts/MQConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/utils/FtpUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserTotalMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/FTP.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/java/com/zte/km/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/java/com/zte/km/config/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/java/com/zte/km/controller/KungfuController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level1/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level1/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level1/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level2/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level2/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level2/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level3/1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level3/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level3/3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/welcome.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/common/consts/MQConst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/config/MQConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/CityController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/CityMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageAddressMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageImgMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/UserTotalMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/mq/MessageData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/mq/MessageType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/City.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageImg.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/CityService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/RabbitMQService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/CityMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageAddressMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageImgMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageMapper.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-info-img.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-info-more.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-info-img.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-info-more.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-info.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-order-comment.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-orders.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig$1.class" afterPath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig.class" afterPath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/target/classes/static/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" afterPath="$PROJECT_DIR$/taotao-backstage/target/classes/static/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/images/perfect_bg.jpg" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/images/perfect_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/cache/MemCacheKeys.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/cache/MemCacheKeys.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/interceptor/LoginInterceptor.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/interceptor/LoginInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/config/WebMvcConfigure.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/config/WebMvcConfigure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/controller/UserController.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/dto/mq/MessageType.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/dto/mq/MessageType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/OrderService.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/OrderService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/RabbitMQService.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/RabbitMQService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/UserService.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/images/perfect_bg.jpg" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/images/perfect_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/test-classes/com/zte/km/ApplicationTests.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/test-classes/com/zte/km/ApplicationTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/controller/UserController.class" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/service/UserService.class" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/pom.xml" afterPath="$PROJECT_DIR$/taotao-backstage/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/MQConfig.java" afterPath="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/MQConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/taotao-backstage.iml" afterPath="$PROJECT_DIR$/taotao-backstage/taotao-backstage.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/pom.xml" afterPath="$PROJECT_DIR$/taotao-foreground/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/MemCacheKeys.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/MemCacheKeys.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/config/WebMvcConfigure.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/config/WebMvcConfigure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/OrderService.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/OrderService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/psearch20131008.css" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/psearch20131008.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/taotao.css" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/taotao.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/js/taotao.js" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/js/taotao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/commons/header.html" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/commons/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/test/java/com/zte/km/ApplicationTests.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/test/java/com/zte/km/ApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/taotao-foreground.iml" afterPath="$PROJECT_DIR$/taotao-foreground/taotao-foreground.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/application.properties" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/psearch20131008.css" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/psearch20131008.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/taotao.css" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/taotao.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/js/taotao.js" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/js/taotao.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/commons/header.html" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/commons/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-log/pom.xml" afterPath="$PROJECT_DIR$/taotao-log/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-log/taotao-log.iml" afterPath="$PROJECT_DIR$/taotao-log/taotao-log.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-solr/pom.xml" afterPath="$PROJECT_DIR$/taotao-solr/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-solr/taotao-solr.iml" afterPath="$PROJECT_DIR$/taotao-solr/taotao-solr.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/pom.xml" afterPath="$PROJECT_DIR$/taotao-sso/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/UserController.java" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/User.java" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/resources/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/taotao-sso.iml" afterPath="$PROJECT_DIR$/taotao-sso/taotao-sso.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/application.properties" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/mybatis/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/mybatis/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao.sql" afterPath="$PROJECT_DIR$/taotao.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-order-comment.jsp" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_order_comment.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-orders.jsp" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_orders.html" />
-    </list>
+    <list default="true" id="61fc1660-8174-4544-873d-76ccab7cfbe8" name="Default" comment="" />
     <ignored path="taotao.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -214,7 +91,7 @@
       <file leaf-file-name="user_Message.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="303">
               <caret line="473" column="0" lean-forward="true" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -370,7 +247,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="349" />
     <option name="y" value="32" />
     <option name="width" value="1382" />
@@ -430,6 +307,41 @@
             <path>
               <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-foreground" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-foreground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-foreground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-foreground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="taotao-foreground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -938,8 +850,23 @@
       <workItem from="1545998173329" duration="11109000" />
       <workItem from="1546156056329" duration="32010000" />
       <workItem from="1547361515920" duration="17745000" />
-      <workItem from="1547469147734" duration="6554000" />
+      <workItem from="1547469147734" duration="6965000" />
     </task>
+    <task id="LOCAL-00001" summary="淘淘商城v1.2">
+      <created>1547477560588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547477560588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="淘淘商城v1.2">
+      <created>1547477647137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547477647137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -975,7 +902,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498820000" />
+    <option name="totallyTimeSpent" value="499231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,7 +914,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31794873" sideWeight="0.5075643" order="7" side_tool="true" content_ui="tabs" />
@@ -1040,6 +967,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="淘淘商城v1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="淘淘商城v1.2" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -1066,6 +997,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-416">
           <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,6 +1012,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,6 +1020,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,6 +1056,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,6 +1064,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,6 +1079,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,6 +1087,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,6 +1095,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,6 +1108,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,6 +1116,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#965#966#0" expanded="false" />
+            <element signature="e#1007#1008#0" expanded="false" />
+            <element signature="e#1043#1044#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,6 +1129,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,6 +1137,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,6 +1159,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,6 +1174,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="51" column="96" lean-forward="true" selection-start-line="51" selection-start-column="96" selection-end-line="51" selection-end-column="96" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,6 +1182,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,6 +1190,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,6 +1198,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,6 +1206,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1547372430984" expanded="true" signature="1180:1517" ph="INSERT INTO user_message... " />
+            <marker date="1547372430984" expanded="true" signature="1186:1517" ph="insert INTO user_message... " />
+            <marker date="1547372430984" expanded="true" signature="1518:1879" ph="UPDATE nickN... " />
+            <marker date="1547372430984" expanded="true" signature="1986:2104" ph="SELECT id,us... user_message" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,6 +1219,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,6 +1227,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,6 +1235,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,6 +1245,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <marker date="1547372604075" expanded="true" signature="703:825" ph="INSERT INTO user_image... " />
+            <marker date="1547372604075" expanded="true" signature="709:825" ph="insert INTO user_image... " />
+            <marker date="1547372604075" expanded="true" signature="826:868" ph="UPDATE pictu... " />
+            <marker date="1547372604075" expanded="true" signature="826:869" ph="UPDATE nickN... " />
+            <marker date="1547372604075" expanded="true" signature="970:1034" ph="SELECT id,us... user_image" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,6 +1259,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <marker date="1547372907635" expanded="true" signature="921:1145" ph="INSERT INTO user_address... " />
+            <marker date="1547372907635" expanded="true" signature="1145:1146" ph="UPDATE nickN... " />
+            <marker date="1547372907635" expanded="true" signature="1229:1276" ph="DELETE FROM " />
+            <marker date="1547372907635" expanded="true" signature="1388:1478" ph="SELECT id,us... user_address" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1290,6 +1272,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1297,6 +1280,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1365,8 +1349,8 @@
         <state relative-caret-position="175">
           <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1397,6 +1381,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="redis://IedisURI?type=Explorer&amp;label=127.0.0.1&amp;host=127.0.0.1&amp;port=6379&amp;password=&amp;timestamp=1544104180720&amp;nodeHost=127.0.0.1&amp;nodePort=6379">
+      <provider selected="true" editor-type-id="x">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1405,14 +1394,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="redis://IedisURI?type=Explorer&amp;label=127.0.0.1&amp;host=127.0.0.1&amp;port=6379&amp;password=&amp;timestamp=1544104180720&amp;nodeHost=127.0.0.1&amp;nodePort=6379">
-      <provider selected="true" editor-type-id="x">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="303">
           <caret line="473" column="0" lean-forward="true" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

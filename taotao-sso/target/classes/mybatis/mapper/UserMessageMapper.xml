@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zte.km.dao.UserMessageMapper" >
+  <resultMap id="BaseResultMap" type="com.zte.km.entities.UserMessage" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="userId" property="userId" jdbcType="BIGINT" />
+    <result column="nickName" property="nickName" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="birthday" property="birthday" jdbcType="TIMESTAMP" />
+    <result column="hobby" property="hobby" jdbcType="VARCHAR" />
+    <result column="marriage" property="marriage" jdbcType="INTEGER" />
+    <result column="income" property="income" jdbcType="VARCHAR" />
+    <result column="educate" property="educate" jdbcType="VARCHAR" />
+    <result column="trade" property="trade" jdbcType="VARCHAR" />
+  </resultMap>
+
+    <!--1.新增/更新用户基本信息,ON DUPLICATE KEY UPDATE依据unique键或者主键，有责更新无责插入-->
+    <insert id="insertOrUpdate"  useGeneratedKeys="true" keyProperty="id" keyColumn="id" parameterType="com.zte.km.entities.UserMessage">
+      INSERT INTO user_message(userId, nickName, sex, birthday,hobby,marriage,income,educate,trade)
+        VALUES (#{userMessage.userId},#{userMessage.nickName},#{userMessage.sex},#{userMessage.birthday},#{userMessage.hobby},#{userMessage.marriage},#{userMessage.income},#{userMessage.educate},#{userMessage.trade})
+          ON DUPLICATE KEY UPDATE
+            nickName = #{userMessage.nickName},
+            sex = #{userMessage.sex},
+            birthday = #{userMessage.birthday},
+            hobby = #{userMessage.hobby},
+            marriage = #{userMessage.marriage},
+            income = #{userMessage.income},
+            educate = #{userMessage.educate},
+            trade = #{userMessage.trade}
+    </insert>
+
+    <!--2.根据ID查询用户基本信息-->
+    <select id="getUserMessage" resultMap="BaseResultMap">
+      SELECT id,userId, nickName, sex, birthday,hobby,marriage,income,educate,trade FROM user_message WHERE userId=#{userId};
+    </select>
+
+</mapper>
