@@ -77,6 +77,12 @@
 				<version>4.5.5</version>
 			</dependency>
 
+			<!--系统热部署-->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-devtools</artifactId>
+				<version>1.5.17.RELEASE</version>
+			</dependency>
 		</dependencies>
 
 	</dependencyManagement>

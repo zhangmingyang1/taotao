@@ -1,7 +1,127 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
 	  xmlns:th="http://www.thymeleaf.org">
-<script type="text/javascript" src="/js/base-v1.js" charset="utf-8"></script>
+	<script type="text/javascript" src="/js/base-v1.js" charset="utf-8"></script>
+	<style type="text/css">
+		#user_message {
+			overflow: hidden;
+			width: 280px;
+			float: left;
+			padding: 10px;
+			margin-bottom: 10px;
+			height: 100px;
+			background: #FFFFFF;
+			line-height: 25px
+		}
+
+		#user_message a {
+			color: #005ea7
+		}
+
+		#user_message a:hover {
+			color: #e4393c
+		}
+
+		#user_message .user_pic {
+			position: relative;
+			z-index: 0;
+			float: left;
+			width: 104px;
+			height: 104px;
+			overflow: hidden;
+			text-align: center;
+			margin-right: 6px
+		}
+
+		#user_message .user_pic .faceImg-link {
+			display: none;
+			position: absolute;
+			width: 100px;
+			text-align: center;
+			left: 0;
+			bottom: 4px;
+			height: 30px;
+			line-height: 30px;
+			overflow: hidden;
+			color: #fff;
+			z-index: 3
+		}
+
+
+		#user_message .user_pic img {
+			width: 100px;
+			height: 100px
+		}
+
+		#user_message .message_detail {
+			float: left;
+			width: 170px
+		}
+
+		#user_message .message_detail .user-level {
+			margin-bottom: 5px;
+			height: 18px
+		}
+
+		#user_message .message_detail .user-level .rank {
+			margin-right: 10px
+		}
+
+		#user_message .message_detail .user-level .rank s {
+			background: url(/images/rank2014.gif) no-repeat 0 0;
+			display: inline-block;
+			height: 17px;
+			text-decoration: none;
+			width: 17px;
+			vertical-align: middle;
+			overflow: hidden;
+			position: relative
+		}
+
+		#user_message .message_detail .user-level .rank a {
+			display: inline-block;
+			vertical-align: middle
+		}
+
+		#user_message .message_detail .user-level .rank.r2 s {
+			background-position: 0 -17px
+		}
+
+		#user_message .message_detail .user-level .rank.r3 s {
+			background-position: 0 -34px
+		}
+
+		#user_message .message_detail .user-level .rank.r4 s {
+			 background-position: 0 -51px
+		 }
+
+		#user_message .message_detail .user-level .rank.r5 s {
+			background-position: 0 -68px
+		}
+
+		#user_message .message_detail .user-level .rank.r6 s {
+			background-position: 0 -85px
+		}
+
+		#user_message .message_detail .rank_sh {
+			position: relative;
+			display: inline-block;
+			*display: inline;
+			*zoom: 1;
+			vertical-align: middle;
+			height: 15px;
+			background: url(/images/rank_sh.png) no-repeat
+		}
+
+		#user_message .message_detail .rank_sh01 {
+			width: 75px
+		}
+
+		#user_message .message_detail .rank_sh02 {
+			width: 55px
+		}
+
+	</style>
 <!--shortcut start-->
 	<!--引入shortcut页面-->
 	<div th:replace="commons/shortcut"></div>
@@ -24,9 +144,31 @@
 		<!--search end-->
 		<div id="my360buy-2013">
 			<dl>
-				<dt class="ld"><s></s><a href="http://127.0.0.1:8084/user/login" clstag="homepage|keycount|home2012|04a">我的淘淘</a><b></b></dt>
-				<dd>
-					<div class="loading-style1"><b></b>加载中，请稍候...</div>
+				<dt class="ld"><s></s><a href="http://127.0.0.1:8080/user/user_Message" clstag="homepage|keycount|home2012|04a">我的淘淘</a><b></b></dt>
+				<dd th:if="${session.user != null}">
+					<div id="user_message">
+						<div class="user_pic">
+							<img alt="用户头像" src="/images/defaultImgs/1.jpg">
+							<a href="http://127.0.0.1:8080/user/user_Message_img" class="faceImg-link">修改头像</a>
+						</div>
+						<div class="message_detail">
+							<div><b>用户名：张明阳</b></div>
+							<div class="user-level">
+								<span class="rank r4">
+									<s style="left: auto;top: 1px;"></s>
+									<a href="http://usergrade.jd.com/user/grade" style="margin-left: 5px;" target="_blank">金牌会员</a>
+								</span>
+							</div>
+							<div class="shop_level">购物行为评级：
+								<span>
+									<a target="_blank" href="http://help.jd.com/help/question-57.html#help2173">
+                                    	<s id="userCredit" class="rank_sh rank_sh01 rank_sh02" style="left: 1px;bottom: 0px;"></s>
+									</a>
+								</span>
+							</div>
+							<div>会员类型：个人用户</div>
+						</div>
+					</div>
 				</dd>
 			</dl>
 		</div>

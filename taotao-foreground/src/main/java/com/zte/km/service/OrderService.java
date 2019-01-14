@@ -48,18 +48,18 @@ public class OrderService {
         order.setUserId(user.getId());
         order.setBuyerNick(user.getUsername());     //买家昵称
         order.setBuyerRate(0);    //买家是否已经评价
-        rabbitMQService.convertAndSend(new MessageData(MessageType.Order,order));
+        rabbitMQService.SendOrderMessage(new MessageData(MessageType.Order,order));
         //-----------------------订单明细--------------------------//
         orderItems.forEach(x -> {
             //redis生成订单明细ID
             Long ORDER_ITEM_INDEX = redisTemplate.opsForValue().increment("ORDER_ITEM_INDEX", 1);
             x.setId(ORDER_ITEM_INDEX.toString());
             x.setOrderId(ORDER_INDEX.toString());
-            rabbitMQService.convertAndSend(new MessageData(MessageType.OrderItem,x));
+            rabbitMQService.SendOrderMessage(new MessageData(MessageType.OrderItem,x));
         });
         //--------------------------订单物流-----------------------//
         orderShipping.setOrderId(ORDER_INDEX.toString());
-        rabbitMQService.convertAndSend(new MessageData(MessageType.OrderShipping,orderShipping));
+        rabbitMQService.SendOrderMessage(new MessageData(MessageType.OrderShipping,orderShipping));
         //下订单，删除购物车商品
         CookieUtils.deleteCookie(request,response,"CART");
         return ORDER_INDEX.toString();

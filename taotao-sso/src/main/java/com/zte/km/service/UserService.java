@@ -1,8 +1,15 @@
 package com.zte.km.service;
 
 import com.zte.km.dao.UserMapper;
+import com.zte.km.dao.UserMessageAddressMapper;
+import com.zte.km.dao.UserMessageImgMapper;
+import com.zte.km.dao.UserMessageMapper;
 import com.zte.km.dto.ServiceData;
+import com.zte.km.dto.UserTotalMessage;
 import com.zte.km.entities.User;
+import com.zte.km.entities.UserMessage;
+import com.zte.km.entities.UserMessageAddress;
+import com.zte.km.entities.UserMessageImg;
 import com.zte.km.utils.CookieUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -12,6 +19,7 @@ import org.springframework.util.DigestUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
@@ -20,6 +28,12 @@ public class UserService {
 
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private UserMessageMapper userMessageMapper;
+    @Autowired
+    private UserMessageImgMapper userMessageImgMapper;
+    @Autowired
+    private UserMessageAddressMapper userMessageAddressMapper;
     @Autowired
     private HttpServletRequest request;
     @Autowired
@@ -74,7 +88,9 @@ public class UserService {
             return new ServiceData(400,"用户密码错误...");
         String token = UUID.randomUUID().toString();
         ValueOperations<String,Object> valueOperations = redisTemplate.opsForValue();
-        valueOperations.set("USER_MESSAGE:"+token,user,1, TimeUnit.DAYS);
+        //查询用户基本信息/头像/收货地址等全部信息
+        UserTotalMessage userTotalMessage=this.getUserTotalMessage(user);
+        valueOperations.set("USER_MESSAGE:"+token,userTotalMessage,1, TimeUnit.DAYS);
         ServiceData serviceData=new ServiceData();
         serviceData.setStatus(200);
         serviceData.setMessage("用户登录成功");
@@ -83,6 +99,25 @@ public class UserService {
         //微服务之间相互调用，带着cookie中的token检查用户是否登陆
         CookieUtils.setCookie(request,response,"TOKEN",token);
         return serviceData;
+    }
+
+    //获取用户全部信息
+    private UserTotalMessage getUserTotalMessage(User user) {
+        UserTotalMessage userTotalMessage=new UserTotalMessage();
+        userTotalMessage.setId(user.getId());
+        userTotalMessage.setUsername(user.getUsername());
+        userTotalMessage.setPassword(user.getPassword());
+        userTotalMessage.setPhone(user.getPhone());
+        userTotalMessage.setEmail(user.getEmail());
+        userTotalMessage.setCreated(user.getCreated());
+        userTotalMessage.setUpdated(user.getUpdated());
+        UserMessage userMessage=userMessageMapper.getUserMessage(user.getId());
+        userTotalMessage.setUserMessage(userMessage);
+        UserMessageImg userMessageImg=userMessageImgMapper.getUserMessageImg(user.getId());
+        userTotalMessage.setUserMessageImg(userMessageImg);
+        List<UserMessageAddress> userMessageAddressList=userMessageAddressMapper.getUserMessageAddressList(user.getId());
+        userTotalMessage.setUserMessageAddressList(userMessageAddressList);
+        return userTotalMessage;
     }
 
     //4.通过token检查用户信息
@@ -99,11 +134,4 @@ public class UserService {
         return serviceData;
     }
 
-    //5.用户安全退出
-    public void logout(String token) {
-        //删除redis缓存中的用户信息
-        redisTemplate.delete("USER_MESSAGE:"+token);
-        //清理cookie中的token
-        CookieUtils.deleteCookie(request,response,"TOKEN");
-    }
 }

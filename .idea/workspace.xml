@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61fc1660-8174-4544-873d-76ccab7cfbe8" name="Default" comment="" />
+    <list default="true" id="61fc1660-8174-4544-873d-76ccab7cfbe8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_17_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_17_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_5_17_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_2_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_2_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_2_9_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/common/consts/MQConst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/consts/MQConst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/utils/FtpUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/City.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserTotalMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/FTP.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/java/com/zte/km/Application.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/java/com/zte/km/config/SecurityConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/java/com/zte/km/controller/KungfuController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level1/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level1/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level1/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level2/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level2/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level2/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level3/1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level3/2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/level3/3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/pages/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-log/src/main/resources/templates/welcome.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/common/consts/MQConst.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/config/MQConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/CityController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/CityMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageAddressMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageImgMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/UserTotalMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/mq/MessageData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/mq/MessageType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/City.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageAddress.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageImg.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/CityService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/RabbitMQService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/CityMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageAddressMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageImgMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageMapper.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-info-img.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-info-more.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-info.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-info-img.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-info-more.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-info.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-order-comment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/my-orders.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig$1.class" afterPath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig.class" afterPath="$PROJECT_DIR$/taotao-backstage/target/classes/com/zte/km/config/MQConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/target/classes/static/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" afterPath="$PROJECT_DIR$/taotao-backstage/target/classes/static/js/kindeditor-4.1.10/plugins/multiimage/images/swfupload.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/images/perfect_bg.jpg" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/images/perfect_bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/cache/MemCacheKeys.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/cache/MemCacheKeys.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/interceptor/LoginInterceptor.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/common/interceptor/LoginInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/config/WebMvcConfigure.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/config/WebMvcConfigure.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/controller/UserController.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/dto/mq/MessageType.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/dto/mq/MessageType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/OrderService.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/OrderService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/RabbitMQService.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/RabbitMQService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/UserService.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/com/zte/km/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/images/perfect_bg.jpg" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/images/perfect_bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/test-classes/com/zte/km/ApplicationTests.class" afterPath="$PROJECT_DIR$/taotao-foreground/target/test-classes/com/zte/km/ApplicationTests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/controller/UserController.class" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/service/UserService.class" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/com/zte/km/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/pom.xml" afterPath="$PROJECT_DIR$/taotao-backstage/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/MQConfig.java" afterPath="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/MQConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-backstage/taotao-backstage.iml" afterPath="$PROJECT_DIR$/taotao-backstage/taotao-backstage.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/pom.xml" afterPath="$PROJECT_DIR$/taotao-foreground/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/MemCacheKeys.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/MemCacheKeys.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/config/WebMvcConfigure.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/config/WebMvcConfigure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/OrderService.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/OrderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/psearch20131008.css" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/psearch20131008.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/taotao.css" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/css/taotao.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/js/taotao.js" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/js/taotao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/commons/header.html" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/commons/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/src/test/java/com/zte/km/ApplicationTests.java" afterPath="$PROJECT_DIR$/taotao-foreground/src/test/java/com/zte/km/ApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/taotao-foreground.iml" afterPath="$PROJECT_DIR$/taotao-foreground/taotao-foreground.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/application.properties" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/psearch20131008.css" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/psearch20131008.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/taotao.css" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/css/taotao.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/static/js/taotao.js" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/static/js/taotao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/commons/header.html" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/commons/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/index.html" afterPath="$PROJECT_DIR$/taotao-foreground/target/classes/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-log/pom.xml" afterPath="$PROJECT_DIR$/taotao-log/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-log/taotao-log.iml" afterPath="$PROJECT_DIR$/taotao-log/taotao-log.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-solr/pom.xml" afterPath="$PROJECT_DIR$/taotao-solr/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-solr/taotao-solr.iml" afterPath="$PROJECT_DIR$/taotao-solr/taotao-solr.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/pom.xml" afterPath="$PROJECT_DIR$/taotao-sso/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/UserController.java" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/User.java" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java" afterPath="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/src/main/resources/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-sso/src/main/resources/static/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/taotao-sso.iml" afterPath="$PROJECT_DIR$/taotao-sso/taotao-sso.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/application.properties" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/mybatis/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/mybatis/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao-sso/target/classes/static/css/base.css" afterPath="$PROJECT_DIR$/taotao-sso/target/classes/static/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotao.sql" afterPath="$PROJECT_DIR$/taotao.sql" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-order-comment.jsp" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_order_comment.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/my-orders.jsp" afterPath="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_orders.html" />
+    </list>
     <ignored path="taotao.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,6 +142,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/taotao$Application.coverage" NAME="Application Coverage Results" MODIFIED="1541823017367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -64,7 +190,46 @@
     <favorites_list name="taotao" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="53" column="15" lean-forward="false" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_Message.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="473" column="0" lean-forward="true" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#10;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,37 +242,46 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>one6</find>
-      <find>phone_succeed</find>
-      <find>http://localhost:8084/user/showLogin</find>
-      <find>i-email</find>
-      <find>sho</find>
-      <find>RedisConfig</find>
-      <find>reg</find>
-      <find>reg()</find>
-      <find>搜索</find>
-      <find>ser/login</find>
-      <find>taotao-foreground</find>
-      <find>totalPrice</find>
-      <find>totalprice</find>
-      <find>购物车结算</find>
-      <find>全选</find>
-      <find>checkItem</find>
-      <find>toggle-checkboxes_up</find>
-      <find>删除选中的商品</find>
+      <find>HttpClientUtil.doGet</find>
+      <find>$.get</find>
+      <find>基本信息</find>
+      <find>#spec-list .spec-items img.img-hover</find>
+      <find>face-list</find>
+      <find>img-hover</find>
+      <find>50</find>
+      <find>bigImage</find>
+      <find>midImage</find>
+      <find>birthdayDay</find>
+      <find>spec-items</find>
+      <find>updateUserInfo</find>
+      <find>提交</find>
+      <find>$.post</find>
       <find>$.ajax</find>
-      <find>cart/cartList</find>
-      <find>order/order-cart</find>
-      <find>user</find>
-      <find>img</find>
-      <find>use_NewConsignee</find>
-      <find>orderForm</find>
-      <find>postfree</find>
-      <find>post</find>
-      <find>cart.id</find>
-      <find>cartOrder</find>
-      <find>item</find>
+      <find>/order/create</find>
+      <find>&lt;form id=&quot;orderForm&quot;</find>
+      <find>uploadDefaultImg</find>
+      <find>SWFUpload_0</find>
+      <find>preventswfcaching</find>
+      <find>picFileUpload</find>
+      <find>uploadFile</find>
+      <find>data.stat</find>
+      <find>我的淘淘</find>
+      <find>updateMoreUserInfo</find>
+      <find>婚姻状况</find>
+      <find>评价晒单</find>
+      <find>prompt-06</find>
+      <find>address_msg</find>
+      <find>option</find>
     </findStrings>
+    <replaceStrings>
+      <replace>user_message</replace>
+      <replace>user_pic</replace>
+      <replace>rank_sh</replace>
+      <replace>46</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -117,57 +291,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/search.html" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/item.html" />
-        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/commons/header.html" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/CartService.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/static/js/cart.js" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/CartController.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/orderItems.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/config/WebMvcConfigure.java" />
-        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/templates/register.html" />
-        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/CartItem.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/OrderItemDto.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/OrderItems.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/Order.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/OrderShipping.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/CartOrder.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/error/exception.html" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/cartOrder.html" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/OrderItem.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-log/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-solr/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-log/src/main/java/com/zte/km/controller/KungfuController.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/utils/FtpUtil.java" />
         <option value="$PROJECT_DIR$/taotao-foreground/pom.xml" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/Message.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dto/mq/Message.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/Message.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dao/OrderMapper.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dao/OrderItemMapper.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/entities/OrderShipping.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dao/OrderShippingMapper.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/MemCacheKeys.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/event/UserEvent.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserBasicMessage.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserExtendMessage.java" />
+        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/common/consts/MQConst.java" />
         <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/MQConfig.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/CacheManagerService.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/service/RabbitMQService.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/success.jsp" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/success.html" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/entities/Order.java" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/resources/mybatis/mapper/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/resources/mybatis/mapper/OrderItemMapper.xml" />
-        <option value="$PROJECT_DIR$/taotao-backstage/src/main/resources/mybatis/mapper/OrderShippingMapper.xml" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/consts/MQConst.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/taotao-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/common/consts/MQConst.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_order_comment.html" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_orders.html" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message_more.html" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message_img.html" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/User.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message_address.html" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java" />
         <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/OrderService.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/cart.html" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessage.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageImg.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/User.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageAddress.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserMessageImg.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserMessageAddress.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/FTP.properties" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/config/MQConfig.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/RabbitMQService.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageMapper.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageMapper.xml" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageImgMapper.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageImgMapper.xml" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/UserTotalMessage.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageAddressMapper.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java" />
+        <option value="$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageAddressMapper.xml" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserTotalMessage.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserMessage.java" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message.html" />
       </list>
     </option>
   </component>
@@ -197,8 +371,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="340" />
-    <option name="y" value="7" />
+    <option name="x" value="349" />
+    <option name="y" value="32" />
     <option name="width" value="1382" />
     <option name="height" value="756" />
   </component>
@@ -210,7 +384,13 @@
             <id />
           </State>
           <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
             <id>HTML</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
           </State>
           <State>
             <id>Thymeleaf</id>
@@ -218,11 +398,14 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>CheckValidXmlInScriptTagBody</id>
+            <id>JSUnresolvedFunction</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -239,6 +422,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,10 +435,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,11 +444,11 @@
     <property name="SearchEverywhereHistoryKey" value="itemList&#9;FILE&#9;file://D:/Temp/taotao/taotao-backstage/src/main/resources/templates/item-list.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/taotao-foreground/pom.xml" />
+    <property name="last_opened_file_path" value="D:/git/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -275,22 +458,23 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Temp\taotao" />
-      <recent name="D:\Temp\taotao\taotao-backstage\src\main\java\com\zte\km\dto" />
-      <recent name="D:\Temp\taotao\taotao-backstage\src\main\java\com\zte\km\config" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Temp\taotao\taotao-foreground\src\main\resources\static\images" />
-      <recent name="D:\Temp\taotao\taotao-sso\src\main\resources\static\js" />
+      <recent name="D:\Temp\taotao\taotao-foreground\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zte.km.dto" />
-      <recent name="com.zte.km.common.utils" />
-      <recent name="com.zte.km.common.interceptor" />
-      <recent name="com.zte.km.config.interceptor" />
+      <recent name="com.zte.km.dao" />
+      <recent name="com.zte.km.entities" />
+      <recent name="com.zte.km.common.consts" />
       <recent name="com.zte.km.config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Temp\taotao\taotao-foreground\src\main\resources\static" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Temp\taotao\taotao-sso\src\main\java\com\zte\km\dto" />
+      <recent name="D:\Temp\taotao\taotao-foreground\src\main\java\com\zte\km\dto" />
+      <recent name="D:\Temp\taotao\taotao-sso\src\main\resources\mybatis\mapper" />
+      <recent name="D:\Temp\taotao\taotao-foreground\src\main\resources" />
+      <recent name="D:\Temp\taotao\taotao-log\src\main\java\com\zte\km\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -305,27 +489,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application (2)">
+  <component name="RunManager" selected="Application.Application (3)">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.zte.km.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.zte.km.Application" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="taotao-foreground" />
-      <envs />
-    </configuration>
-    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.zte.km.*" />
@@ -344,7 +509,7 @@
       <module name="taotao-backstage" />
       <envs />
     </configuration>
-    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.zte.km.*" />
@@ -363,7 +528,7 @@
       <module name="taotao-solr" />
       <envs />
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.zte.km.*" />
@@ -380,6 +545,25 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="taotao-sso" />
+      <envs />
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.zte.km.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.zte.km.Application" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="taotao-foreground" />
       <envs />
     </configuration>
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -664,17 +848,17 @@
       <method />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.Application (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Application (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Application (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Application (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Application (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Application (3)" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Application (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Application" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Application (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Application (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Application (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Application (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -743,43 +927,55 @@
       <workItem from="1544335746887" duration="25633000" />
       <workItem from="1544449863840" duration="2813000" />
       <workItem from="1544453166959" duration="143000" />
+      <workItem from="1545312374894" duration="11924000" />
+      <workItem from="1545393296926" duration="9731000" />
+      <workItem from="1545443887420" duration="33720000" />
+      <workItem from="1545535553475" duration="12052000" />
+      <workItem from="1545556114939" duration="11307000" />
+      <workItem from="1545656504299" duration="11906000" />
+      <workItem from="1545668923078" duration="607000" />
+      <workItem from="1545741580570" duration="8246000" />
+      <workItem from="1545998173329" duration="11109000" />
+      <workItem from="1546156056329" duration="32010000" />
+      <workItem from="1547361515920" duration="17745000" />
+      <workItem from="1547469147734" duration="6554000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.04 at 17h 49m 18s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.04 at 17h 50m 11s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.04 at 18h 10m 28s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.04 at 18h 11m 13s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.04 at 18h 11m 34s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.04 at 18h 12m 55s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.11 at 12h 52m 26s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.11 at 12h 53m 17s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTests_contextLoads - 2018.11.11 at 12h 55m 12s.xml">
-      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="ApplicationTests_MimeMessageTest - 2018.12.24 at 22h 21m 15s.xml">
+      <configuration name="ApplicationTests.MimeMessageTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ApplicationTests_contextLoads - 2018.11.11 at 20h 47m 12s.xml">
       <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 01m 47s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 02m 43s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 06m 11s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 06m 32s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 09m 15s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 09m 33s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 10m 04s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTests_contextLoads - 2018.12.24 at 22h 10m 32s.xml">
+      <configuration name="ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331909000" />
+    <option name="totallyTimeSpent" value="498820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,39 +990,40 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31794873" sideWeight="0.5075643" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1376702" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26928896" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32307693" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1376702" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29500756" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3237519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28517398" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28517398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48027444" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32590052" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32246998" sideWeight="0.4924357" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30711043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37435898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Iedis Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283082" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.4969743" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Iedis Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5025729" sideWeight="0.4969743" order="11" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,7 +1042,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="56" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -854,277 +1054,301 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/pom.xml">
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserExtendMessage.java" />
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="125">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/amqp/spring-rabbit/1.7.11.RELEASE/spring-rabbit-1.7.11.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="427" column="16" lean-forward="false" selection-start-line="427" selection-start-column="16" selection-end-line="427" selection-end-column="16" />
+        <state relative-caret-position="-416">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/consts/MQConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/MQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/service/RabbitMQService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/TypeReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/mq/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/mq/MessageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserMessageImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserMessageAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/UserMessageAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/FTP.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/amqp/spring-rabbit/1.7.11.RELEASE/spring-rabbit-1.7.11.RELEASE.jar!/org/springframework/amqp/rabbit/listener/AbstractMessageListenerContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="536" column="0" lean-forward="false" selection-start-line="536" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/config/MQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/resources/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="114" lean-forward="true" selection-start-line="2" selection-start-column="114" selection-end-line="2" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/RabbitMQService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="51" column="96" lean-forward="true" selection-start-line="51" selection-start-column="96" selection-end-line="51" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/config/WebMvcConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageImgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dto/UserTotalMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageImgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/resources/mybatis/mapper/UserMessageAddressMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/dao/UserMessageAddressMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="130" column="35" lean-forward="true" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="459" column="0" lean-forward="false" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="85" column="56" lean-forward="true" selection-start-line="85" selection-start-column="56" selection-end-line="85" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="53" column="15" lean-forward="false" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageType.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dto/mq/MessageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/springframework/amqp/spring-amqp/1.7.11.RELEASE/spring-amqp-1.7.11.RELEASE.jar!/org/springframework/amqp/core/Message.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dto/mq/MessageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/mq/MessageData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/RabbitMQService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/entities/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/OrderShipping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/entities/OrderShipping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dao/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dao/OrderItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/dao/OrderShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/CacheEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/MemCacheKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/ServiceData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/cache/CacheManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="147" column="29" lean-forward="false" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/cartOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/config/MQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="76" column="48" lean-forward="false" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/success.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/entities/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/resources/mybatis/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="28" column="147" lean-forward="false" selection-start-line="28" selection-start-column="147" selection-end-line="28" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/resources/mybatis/mapper/OrderShippingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="21" column="148" lean-forward="false" selection-start-line="21" selection-start-column="148" selection-end-line="21" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6a563342/e01edbf3-af37-47ed-a5db-70a57428e42a/taotao.order_shipping">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6a563342/e01edbf3-af37-47ed-a5db-70a57428e42a/taotao.order_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6a563342/e01edbf3-af37-47ed-a5db-70a57428e42a/taotao.order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/resources/mybatis/mapper/OrderItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/service/RabbitMQService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="31" column="59" lean-forward="true" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        <state relative-caret-position="184">
+          <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1136,63 +1360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/utils/CookieUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="151" column="49" lean-forward="true" selection-start-line="151" selection-start-column="49" selection-end-line="151" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/CartService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="128" column="76" lean-forward="true" selection-start-line="128" selection-start-column="76" selection-end-line="128" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="71" column="56" lean-forward="false" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="64" column="38" lean-forward="false" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-backstage/src/main/java/com/zte/km/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao-sso/src/main/java/com/zte/km/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#298#299#0" expanded="true" />
@@ -1200,14 +1371,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao-solr/src/main/java/com/zte/km/Application.java">
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message_address.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="237" column="20" lean-forward="true" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
           <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
+            <marker date="1546342411055" expanded="true" signature="18882:18979" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/dto/UserTotalMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/java/com/zte/km/common/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,11 +1410,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao.sql">
+    <entry file="file://$PROJECT_DIR$/taotao-foreground/src/main/resources/templates/user_Message.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6225" column="553" lean-forward="false" selection-start-line="6225" selection-start-column="553" selection-end-line="6225" selection-end-column="553" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="473" column="0" lean-forward="true" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,7 +1478,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>taotao-solr</last-edited>
+          <last-edited>taotao-log</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

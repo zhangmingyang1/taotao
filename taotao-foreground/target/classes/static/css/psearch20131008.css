@@ -4324,7 +4324,7 @@ a:hover {
 .shop-name a i {
 	position: absolute;
 	right: 0;
-	_right:;
+	_right: 0;
 	_margin-left: 4px;
 	top: 0;
 	display: block;
@@ -4342,7 +4342,7 @@ a:hover {
 }
 
 * html .shop-name a i {
-	_right:;
+	_right:0;
 	_margin-left: 4px
 }
 

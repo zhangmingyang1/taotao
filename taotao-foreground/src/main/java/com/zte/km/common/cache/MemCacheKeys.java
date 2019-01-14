@@ -21,6 +21,9 @@ public class MemCacheKeys {
         caches.put("ITEM_DESC",new CacheEntity("com:taotao:itemDesc:%s",1, TimeUnit.DAYS));
         //5.商品规格参数
         caches.put("ITEM_PARAM",new CacheEntity("com:taotao:itemParam:%s",1, TimeUnit.DAYS));
+        //6.省市区信息(永不过期)
+        caches.put("PROVINCE_CITY_COUNTY",new CacheEntity("com:taotao:city:%s",-1));
+
     }
 
     public CacheEntity getCacheEntity(String cacheKey){

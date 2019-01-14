@@ -2,6 +2,7 @@ package com.zte.km.config;
 
 import com.alibaba.fastjson.JSON;
 import com.rabbitmq.client.Channel;
+import com.zte.km.common.consts.MQConst;
 import com.zte.km.dto.mq.MessageData;
 import com.zte.km.service.RabbitMQService;
 import org.springframework.amqp.core.*;
@@ -35,9 +36,22 @@ public class MQConfig {
     //配置交换机
     @Bean
     public DirectExchange directExchange(){
-        return new DirectExchange("MyExchange");
+        return new DirectExchange(MQConst.EXCHANGE);
     }
     //配置连接工厂
+
+    //配置队列
+    @Bean
+    public Queue queue(){
+        return new Queue(MQConst.ORDER_QUEUE,true);
+    }
+
+    //将队列绑定到交换机
+    @Bean
+    public Binding binding(){
+        return BindingBuilder.bind(queue()).to(directExchange()).with(MQConst.ORDER_ROUTING_KEY);
+    }
+    //消费者，实时消息监听
 
     @Bean
     public ConnectionFactory connectionFactory(){
@@ -48,19 +62,6 @@ public class MQConfig {
         connectionFactory.setPublisherConfirms(true);
         return connectionFactory;
     }
-
-    //配置队列
-    @Bean
-    public Queue queue(){
-        return new Queue("MyQueue",true);
-    }
-    //将队列绑定到交换机
-    @Bean
-    public Binding binding(){
-        return BindingBuilder.bind(queue()).to(directExchange()).with("ROUTING_KEY");
-    }
-
-    //消费者，实时消息监听
     @Bean
     public SimpleMessageListenerContainer simpleMessageListenerContainer(){
         SimpleMessageListenerContainer messageListener=new SimpleMessageListenerContainer(connectionFactory());

@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.zte.km.common.utils.CookieUtils;
 import com.zte.km.dto.ServiceData;
 import com.zte.km.dto.User;
+import com.zte.km.dto.UserTotalMessage;
 import com.zte.km.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -35,7 +36,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         ServiceData serviceData=userService.token(token);
         if (serviceData != null && serviceData.getStatus()==200){
             JSONObject jsonObject=(JSONObject) serviceData.getData();
-            User user = jsonObject.toJavaObject(User.class);
+            UserTotalMessage user = jsonObject.toJavaObject(UserTotalMessage.class);
             if (user == null){    //用户信息已经过期
                 //跳转到登陆页面，把用户请求的URL作为参数传递给页面
                 response.sendRedirect(SSO_BASE_URL+"user/login?redirect="+requestURL.toString());

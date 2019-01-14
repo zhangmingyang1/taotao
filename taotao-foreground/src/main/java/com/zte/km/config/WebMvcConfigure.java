@@ -21,7 +21,8 @@ public class WebMvcConfigure extends WebMvcConfigurerAdapter{
     public void addInterceptors(InterceptorRegistry registry) {
         //添加拦截器
         registry.addInterceptor(loginInterceptor())
-                .addPathPatterns("/order/*");
+                .addPathPatterns("/order/*")
+                .addPathPatterns("/user/user_*");
         super.addInterceptors(registry);
     }
 

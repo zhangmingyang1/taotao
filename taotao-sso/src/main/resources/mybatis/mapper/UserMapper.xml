@@ -13,13 +13,16 @@
 
   <!--1.检查用户登陆信息-->
   <select id="checkByName" resultMap="BaseResultMap">
-    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated` FROM `user` WHERE `username`=#{content}
+    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated`
+     FROM `user` WHERE `username`=#{content}
   </select>
   <select id="checkByPhone" resultMap="BaseResultMap">
-    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated` FROM `user` WHERE `phone`=#{content}
+    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated`
+    FROM `user` WHERE `phone`=#{content}
   </select>
   <select id="checkByEmail" resultMap="BaseResultMap">
-    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated` FROM `user` WHERE `email`=#{content}
+    SELECT `id`,`username`,`password`,`phone`,`email`,`created`,`updated`
+    FROM `user` WHERE `email`=#{content}
   </select>
 
   <!--2.用户注册-->

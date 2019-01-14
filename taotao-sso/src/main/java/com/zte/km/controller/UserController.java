@@ -6,10 +6,11 @@ import com.zte.km.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 
@@ -63,15 +64,6 @@ public class UserController {
         if (token==null || token.isEmpty())
             return new ServiceData(400,"token为空！");
         return userService.token(token);
-    }
-
-    //5.用户安全退出
-    @RequestMapping(value = "/logout/{token}",method = RequestMethod.GET)
-    public void logout(@PathVariable String token, HttpServletResponse response) throws IOException {
-        if (token != null && !token.isEmpty())
-            userService.logout(token);
-        //重定向到网站首页
-        response.sendRedirect("http://127.0.0.1:8080");
     }
 
 }
